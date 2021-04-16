@@ -20,7 +20,8 @@ $text-color:       	#fafafa;
 $background-hr:		#383838;
 $background-color: 	#222222;
 $background-darker: #1B1B1B;
-$brand-color:	   	#D6000D;
+$brand-color:	   	#0092BC;
+$anchor-hover-color:	lighten($brand-color, 30%);
 
 $player-now-playing-size:   13px;
 $player-height:		64px;
@@ -39,8 +40,8 @@ $tile-size-large:  64px;
 $tile-border-radius:	2px;
 
 $grey-color:       $brand-color;
-$grey-color-light: $brand-color;
-$grey-color-dark:  $brand-color;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;

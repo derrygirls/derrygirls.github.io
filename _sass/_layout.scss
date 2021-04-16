@@ -148,6 +148,11 @@
     img {
         display: inline-block;
         margin-bottom: 1em;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+    img:hover {
+        opacity: 1;
     }
     .logo {
         width: auto;
